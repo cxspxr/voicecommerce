@@ -1,0 +1,17 @@
+{
+	"name": "GetNewestProductsIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "quantity",
+					"value": "$quantity",
+					"dataType": "@sys.number-integer"
+				}
+			]
+		}
+	]
+}

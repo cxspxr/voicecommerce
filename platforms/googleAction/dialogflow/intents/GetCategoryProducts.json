@@ -1,0 +1,23 @@
+{
+	"name": "GetCategoryProducts",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "quantity",
+					"value": "$quantity",
+					"dataType": "@sys.number-integer"
+				},
+				{
+					"isList": false,
+					"name": "category",
+					"value": "$category",
+					"dataType": "@sys.any"
+				}
+			]
+		}
+	]
+}

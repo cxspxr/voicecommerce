@@ -1,0 +1,126 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "thecommerce voice assistant",
+			"types": [],
+			"intents": [
+				{
+					"name": "HelloWorldIntent",
+					"samples": [
+						"hello",
+						"hi"
+					]
+				},
+				{
+					"name": "GetNewestProductsIntent",
+					"samples": [
+						"what are {quantity} newest products",
+						"what are {quantity} new products",
+						"what is {quantity} newest product",
+						"what is {quantity} new product",
+						"list {quantity} newest products",
+						"list {quantity} new products",
+						"{quantity} new products",
+						"{quantity} newest products"
+					],
+					"slots": [
+						{
+							"name": "quantity",
+							"type": "AMAZON.NUMBER"
+						}
+					]
+				},
+				{
+					"name": "GetProductsUnder",
+					"samples": [
+						"what are {quantity} products under {amount}",
+						"what are {quantity} products below {amount}",
+						"what is {quantity} product under {amount}",
+						"what is {quantity} product below {amount}",
+						"what are {quantity} products under {amount} USD",
+						"what are {quantity} products below {amount} USD",
+						"what is {quantity} product under {amount} USD",
+						"what is {quantity} product below {amount} USD",
+						"{quantity} products below {amount}",
+						"{quantity} product below {amount}",
+						"{quantity} products under {amount}",
+						"{quantity} product under {amount}",
+						"{quantity} products below {amount} USD",
+						"{quantity} product below {amount} USD",
+						"{quantity} products under {amount} USD",
+						"{quantity} product under {amount} USD",
+						"list {quantity} products below {amount}",
+						"list {quantity} product below {amount}",
+						"list {quantity} products under {amount}",
+						"list {quantity} product under {amount}",
+						"list {quantity} products below {amount} USD",
+						"list {quantity} product below {amount} USD",
+						"list {quantity} products under {amount} USD",
+						"list {quantity} product under {amount} USD"
+					],
+					"slots": [
+						{
+							"name": "quantity",
+							"type": "AMAZON.NUMBER"
+						},
+						{
+							"name": "amount",
+							"type": "AMAZON.NUMBER"
+						}
+					]
+				},
+				{
+					"name": "GetCategoryProducts",
+					"samples": [
+						"what are {quantity} {category} products",
+						"what are {quantity} {category} products",
+						"what is {quantity}  {category} product",
+						"what is {quantity} {category} product",
+						"what are {quantity} {category} products",
+						"what are {quantity} {category} products",
+						"what is {quantity}  {category} product",
+						"what is {quantity}  {category} product",
+						"{quantity} {category} products",
+						"{quantity} {category} product",
+						"{quantity} {category} products",
+						"{quantity} {category} product",
+						"{quantity} {category} products",
+						"{quantity} {category} product",
+						"{quantity} {category} products",
+						"{quantity} {category} product",
+						"list {quantity} {category} products",
+						"list {quantity} {category} product",
+						"list {quantity} {category} products",
+						"list {quantity} {category} product",
+						"list {quantity} {category} products",
+						"list {quantity} {category} product",
+						"list {quantity} {category} products",
+						"list {quantity} {category} product"
+					],
+					"slots": [
+						{
+							"name": "quantity",
+							"type": "AMAZON.NUMBER"
+						},
+						{
+							"name": "category",
+							"type": "AMAZON.SearchQuery"
+						}
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}

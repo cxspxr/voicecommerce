@@ -1,0 +1,23 @@
+{
+	"name": "GetProductsUnder",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "quantity",
+					"value": "$quantity",
+					"dataType": "@sys.number-integer"
+				},
+				{
+					"isList": false,
+					"name": "amount",
+					"value": "$amount",
+					"dataType": "@sys.number-integer"
+				}
+			]
+		}
+	]
+}
