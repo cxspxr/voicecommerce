@@ -3094,36 +3094,41 @@ jovo-platform-alexa@^3.0.0:
     lodash.sample "^4.2.1"
     lodash.set "^4.3.2"
 
-jovo-platform-dialogflow@^2.2.5:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/jovo-platform-dialogflow/-/jovo-platform-dialogflow-2.2.5.tgz#8872c60ed388d1819ee6df76f020d285cebd1acf"
-  integrity sha512-1etifIFCZoSxHpeoKbo+Up8KcHzCIEGv9JuhqJ74TrpsS7cEeQdbwatlBFRNVYjP1KGOp8MmnIgCAsTIaaPZ+A==
+jovo-platform-dialogflow@^3.0.16:
+  version "3.0.16"
+  resolved "https://registry.yarnpkg.com/jovo-platform-dialogflow/-/jovo-platform-dialogflow-3.0.16.tgz#49d4efc4c563323bf69a868c8bd890e3f0a83767"
+  integrity sha512-gUJVmVYAtAkK9zUdPs3M0h2t1cx/3bWRnfNykU/FFPyUnnDmba+bX+D4EWgVrXTKPFQP37Y5USj/H3Y7ZdDKjw==
   dependencies:
-    jovo-core "^2.2.4"
+    jovo-core "^3.0.16"
     lodash.get "^4.4.2"
     lodash.mapvalues "^4.6.0"
     lodash.set "^4.3.2"
 
-jovo-platform-googleassistant@^2.0.2:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/jovo-platform-googleassistant/-/jovo-platform-googleassistant-2.2.6.tgz#2833392b9edcd99118680706f3914e843c699210"
-  integrity sha512-HEGRnO4p9de+k2NrTv+MhEeS1gHsKIVXz7Lo46TJkhL+BJ4hTxVH42r7aoKNytEyDY8EVUrkLSE/E1r9rqnT3w==
+jovo-platform-googleassistant@^3.0.0:
+  version "3.0.18"
+  resolved "https://registry.yarnpkg.com/jovo-platform-googleassistant/-/jovo-platform-googleassistant-3.0.18.tgz#7a94c502660c0c5ae9b385b19604190b541017ba"
+  integrity sha512-rh8JZaAYOTIgV/PHck0IIXiPfIdqeSKN0kwn7YiFI9xnhBzPc0rV4tBCpqDlsKxafxTlMjP5lD3dJYPjZSXFCw==
   dependencies:
-    jovo-core "^2.2.4"
-    jovo-platform-dialogflow "^2.2.5"
+    jovo-core "^3.0.16"
+    jovo-platform-dialogflow "^3.0.16"
     lodash.get "^4.4.2"
-    lodash.merge "^4.6.1"
+    lodash.merge "^4.6.2"
     lodash.sample "^4.2.1"
     lodash.set "^4.3.2"
+    lodash.unionwith "^4.6.0"
+    lodash.zip "^4.2.0"
     uuid "^3.3.2"
 
-jovo-plugin-debugger@^2.0.2:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/jovo-plugin-debugger/-/jovo-plugin-debugger-2.2.5.tgz#cc7002a2226950f8833439d001bcc1c6b279bf02"
-  integrity sha512-COJfgGFKOUiYTGdcM0y3ZAKaFo+EEBLMawsOm3dySNie2C94+dBnrS9RSe3sQkBtPmLHA40ikzdXgWlJTwi0Lg==
+jovo-plugin-debugger@^3.0.0:
+  version "3.0.16"
+  resolved "https://registry.yarnpkg.com/jovo-plugin-debugger/-/jovo-plugin-debugger-3.0.16.tgz#778b90c2ab2b6bc003d8546866ed39e1f07580c1"
+  integrity sha512-KX87yWx17ABzj9zRQ/5aROzMGUljnrZ7GtBqAfOEW3YbVQCOGHGI5KjEGfZAaWDCG+SxIWm7yCN23D9HZwrn7w==
   dependencies:
     commander "^2.19.0"
-    jovo-core "^2.2.4"
+    jovo-core "^3.0.16"
+    lodash.get "^4.4.2"
+    lodash.merge "^4.6.2"
+    lodash.set "^4.3.2"
     socket.io-client "^2.1.1"
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
@@ -3503,6 +3508,16 @@ lodash.transform@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.transform/-/lodash.transform-4.6.0.tgz#12306422f63324aed8483d3f38332b5f670547a0"
   integrity sha1-EjBkIvYzJK7YSD0/ODMrX2cFR6A=
+
+lodash.unionwith@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.unionwith/-/lodash.unionwith-4.6.0.tgz#74d140b5ca8146e6c643c3724f5152538d9ac1f0"
+  integrity sha1-dNFAtcqBRubGQ8NyT1FSU42awfA=
+
+lodash.zip@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.zip/-/lodash.zip-4.2.0.tgz#ec6662e4896408ed4ab6c542a3990b72cc080020"
+  integrity sha1-7GZi5IlkCO1KtsVCo5kLcswIACA=
 
 lodash@^4.17.11, lodash@^4.17.4:
   version "4.17.11"
