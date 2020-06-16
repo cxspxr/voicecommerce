@@ -2015,10 +2015,10 @@ gulp-install@1.1.0:
     through2 "^2.0.3"
     which "^1.2.14"
 
-gulp-run-command@0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/gulp-run-command/-/gulp-run-command-0.0.9.tgz#cf3fe1ca7ead50a883f4ba4004caa34ca63a63cc"
-  integrity sha512-8/Gzh+zfe6CFLqaL+LxwqLPj5fk/N1eCHEr36K5p9Al40iuxpbVnq1aZRGXMj+4DlWBzjjAAxas3EkMNI/6Vcw==
+gulp-run-command@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/gulp-run-command/-/gulp-run-command-0.0.10.tgz#f3630b060b05c34a398ce22fa8755aaf36c1e70d"
+  integrity sha512-i6o4XRqoadZB2doWCqkrCe7FmFwqPZ0Fxx74FGt83/KT5wKRRaKiFh598W64HE0Br9es6Oyq+nA+/AWbCfeSYQ==
   dependencies:
     babel-plugin-transform-runtime "6.15.0"
     cross-spawn "4.0.0"
