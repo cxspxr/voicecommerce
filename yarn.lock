@@ -3119,13 +3119,16 @@ jovo-platform-googleassistant@^3.0.0:
     lodash.zip "^4.2.0"
     uuid "^3.3.2"
 
-jovo-plugin-debugger@^2.0.2:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/jovo-plugin-debugger/-/jovo-plugin-debugger-2.2.5.tgz#cc7002a2226950f8833439d001bcc1c6b279bf02"
-  integrity sha512-COJfgGFKOUiYTGdcM0y3ZAKaFo+EEBLMawsOm3dySNie2C94+dBnrS9RSe3sQkBtPmLHA40ikzdXgWlJTwi0Lg==
+jovo-plugin-debugger@^3.0.0:
+  version "3.0.16"
+  resolved "https://registry.yarnpkg.com/jovo-plugin-debugger/-/jovo-plugin-debugger-3.0.16.tgz#778b90c2ab2b6bc003d8546866ed39e1f07580c1"
+  integrity sha512-KX87yWx17ABzj9zRQ/5aROzMGUljnrZ7GtBqAfOEW3YbVQCOGHGI5KjEGfZAaWDCG+SxIWm7yCN23D9HZwrn7w==
   dependencies:
     commander "^2.19.0"
-    jovo-core "^2.2.4"
+    jovo-core "^3.0.16"
+    lodash.get "^4.4.2"
+    lodash.merge "^4.6.2"
+    lodash.set "^4.3.2"
     socket.io-client "^2.1.1"
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
