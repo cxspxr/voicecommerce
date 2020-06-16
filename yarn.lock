@@ -3080,17 +3080,17 @@ jovo-framework@^2.2.5:
     lodash.get "^4.4.2"
     lodash.set "^4.3.2"
 
-jovo-platform-alexa@^2.0.2:
-  version "2.2.8"
-  resolved "https://registry.yarnpkg.com/jovo-platform-alexa/-/jovo-platform-alexa-2.2.8.tgz#462bc5ffda28b857bd26627d78ce507aaa544304"
-  integrity sha512-JAPq2MryJZsab8ODX8Nm9fGBYf1BnJerNsZ0ie5eX35VVks2BAWZWFIugpUU2hLKK77X7CXXsN1VbogrVcqtIw==
+jovo-platform-alexa@^3.0.0:
+  version "3.0.21"
+  resolved "https://registry.yarnpkg.com/jovo-platform-alexa/-/jovo-platform-alexa-3.0.21.tgz#42b4dc9d935b9ac2a661df5d62f7c519de091ac0"
+  integrity sha512-tUcS8+gW+wPoJsj+vzgL7lqIUc9+Wo6UhL6JnpxIj5U0ULRo2T630zsfZr8yKAZLj+UwKNfvd+MdbjkBtP4Xww==
   dependencies:
-    jovo-core "^2.2.4"
+    jovo-core "^3.0.16"
     lodash.camelcase "^4.3.0"
     lodash.clonedeep "^4.5.0"
     lodash.get "^4.4.2"
     lodash.map "^4.6.0"
-    lodash.merge "^4.6.1"
+    lodash.merge "^4.6.2"
     lodash.sample "^4.2.1"
     lodash.set "^4.3.2"
 
