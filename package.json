@@ -15,7 +15,7 @@
     "gulp": "4.0.2",
     "gulp-install": "1.1.0",
     "gulp-run-command": "0.0.9",
-    "gulp-zip": "4.2.0",
+    "gulp-zip": "5.1.0",
     "jest": "23.6.0"
   },
   "scripts": {
