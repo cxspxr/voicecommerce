@@ -417,6 +417,13 @@ axios@^0.19.0:
   dependencies:
     follow-redirects "1.5.10"
 
+axios@^0.21.1:
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
+  dependencies:
+    follow-redirects "^1.14.0"
+
 babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -1755,6 +1762,11 @@ follow-redirects@1.5.10:
   dependencies:
     debug "=3.1.0"
 
+follow-redirects@^1.14.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.16.0.tgz#28474a159d3b9d11ef62050a14ed60e4df6d61bc"
+  integrity sha512-y5rN/uOsadFT/JfYwhxRS5R7Qce+g3zG97+JrtFZlC9klX/W5hD7iiLzScI4nZqUS7DNUdhPgw4xI8W2LuXlUw==
+
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -3057,7 +3069,27 @@ jovo-core@^3.0.16:
     lodash.set "^4.3.2"
     lodash.transform "^4.6.0"
 
-jovo-db-filedb@^2.0.2, jovo-db-filedb@^2.2.4:
+jovo-core@^3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/jovo-core/-/jovo-core-3.6.1.tgz#a1c42512e85edd6aab96cd88ee7e46c5784158e4"
+  integrity sha512-s4gc7pJTTeQ2HqGl7IwQkzqdmmkauIcdo/MCzzeeu6xedbdbnGCpy2W+U+YrNrTsF9FvrI1hOzCIpYxsvp2BxA==
+  dependencies:
+    asyncctx "^2.0.3"
+    axios "^0.21.1"
+    i18next "^19.0.2"
+    lodash.camelcase "^4.3.0"
+    lodash.clonedeep "^4.5.0"
+    lodash.get "^4.4.2"
+    lodash.isequal "^4.5.0"
+    lodash.map "^4.6.0"
+    lodash.mapvalues "^4.6.0"
+    lodash.merge "^4.6.2"
+    lodash.sample "^4.2.1"
+    lodash.set "^4.3.2"
+    lodash.transform "^4.6.0"
+    lodash.zip "^4.2.0"
+
+jovo-db-filedb@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/jovo-db-filedb/-/jovo-db-filedb-2.2.4.tgz#45109d62432b4313ec2a70ecf7747161ee6b34f0"
   integrity sha512-yNssRjR0gUK7bD8WiVybvDXnLodVlzckFQEq+4VFh24umV56Ok7EZlobPhUYQ7Z/Y1nfItbqXPSTwA+1A1Vh0A==
@@ -3065,6 +3097,16 @@ jovo-db-filedb@^2.0.2, jovo-db-filedb@^2.2.4:
     jovo-core "^2.2.4"
     lodash.get "^4.4.2"
     lodash.merge "^4.6.1"
+    lodash.set "^4.3.2"
+
+jovo-db-filedb@^3.0.0:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/jovo-db-filedb/-/jovo-db-filedb-3.6.1.tgz#4ba6e5ef4048396b7cbbba19fb5eba07556045da"
+  integrity sha512-GGhLK+bibFQELajlPKjxdBh3KKm22X+375ZX+WxAOhs95mNL88bAF8cFnyM8Tca3A89uvTL8lnKZH2wAT+BS4Q==
+  dependencies:
+    jovo-core "^3.6.1"
+    lodash.get "^4.4.2"
+    lodash.merge "^4.6.2"
     lodash.set "^4.3.2"
 
 jovo-framework@^2.2.5:
