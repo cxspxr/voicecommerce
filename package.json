@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "dependencies": {
     "axios": "^0.18.0",
-    "jovo-db-filedb": "^2.0.2",
+    "jovo-db-filedb": "^3.0.0",
     "jovo-framework": "^2.2.5",
     "jovo-platform-alexa": "^3.0.0",
     "jovo-platform-googleassistant": "^3.0.0",
